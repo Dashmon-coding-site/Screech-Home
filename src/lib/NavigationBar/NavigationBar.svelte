@@ -47,7 +47,7 @@
 
     const isAprilFirst = isAprilFools();
     const randomColor = (() => {
-        const colors = ["#00c3ff", "#ff4c4c", "#66757f", "#ffd000", "#b200fe"];
+        const colors = ["#ff8c00", "#ff4c4c", "#66757f", "#ffd000", "#b200fe"];
         return colors[Math.round(Math.random() * (colors.length - 1))];
     })();
 
@@ -354,7 +354,7 @@
     style={isAprilFirst ? `background-color: ${randomColor} !important` : ""}
 >
     <a class="logo" href="/">
-        <img class="logo-image" src="/navicon.png" alt="PenguinMod" />
+        <img class="logo-image" src="/navicon.png" alt="Screech" />
     </a>
     <div style="margin-right: 12px;" />
     <div class="logo-launcher-margin" />
@@ -489,10 +489,10 @@
 
 <style>
     :root {
-        --penguinmod-color: #00c3ff;
+        --penguinmod-color: #ff8c00;
     }
     :global(body.dark-mode) {
-        --penguinmod-color: #009ccc;
+        --penguinmod-color: #ff7700;
     }
 
     .bar {
