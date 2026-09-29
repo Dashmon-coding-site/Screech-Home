@@ -6,7 +6,7 @@
   env = {
     PUBLIC_API_URL="https://projects.penguinmod.com";
     PUBLIC_STUDIO_URL="https://studio.penguinmod.com";
-    PUBLIC_MAX_UPLOAD_SIZE="32";
+    PUBLIC_MAX_UPLOAD_SIZE="55";
     PUBLIC_CAPTCHA_ENABLED="true";
   };
   idx.extensions = [
